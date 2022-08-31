@@ -12,175 +12,267 @@
   margin: 0;
   padding: 0;
 }
-/* .main-div {
-  background: url(/images/backcover.svg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-x: right;
-} */
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px;
-  flex-wrap: wrap;
-}
-
-nav img {
-  margin-left: 126px;
-}
-.nav-items{
-  display: none;
-}
-@media only screen and (min-width:1020px) {
-.nav-items {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-column-gap: 30px;
-  align-content: center;
-  font-family: "Roboto";
-  color: #373a83;
-  font-size: 17px;
-  position: relative;
-  right: 24px;
-}
-.main-div {
-  background: url(/images/backcover.svg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-x: right;
-}
-.vector-img {
-
-  position: relative;
-  top: 173px;
-  left: 129px;
-}
-.vector-dot {
-  position: relative;
-  top: 132px;
-  left: 90px;
-}
-}
-
-.signin-btn {
-  font-family: "Roboto";
-  width: 73px;
-  height: 21px;
-  border-radius: 10px;
-  background-image: linear-gradient(to right, #965cf2, #ff8adc);
-  border: 1px;
-  align-self: center;
-  color: white;
-  /* position: relative;
-  right: 150px; */
-  margin-right: 100px;
-}
-@media only screen and (max-width:1020px){
-  .signin-btn{
-    margin-right:20px;
-  }
-  nav img {
-    margin-left: 20px;
-  }
-  .left-section {
+@media only screen and (min-width:1376px){
+  nav {
     display: flex;
-    margin-left: 10px;
-    flex-direction: column;
-    gap:150px;
-    margin-top:100px;
+    justify-content: space-between;
+    padding: 12px;
+    flex-wrap: wrap;
+    margin-left:50px;
+    margin-right:50px;
+    /* margin-top:10px; */
   }
-}
-@media only screen and (min-width:974px){
-  .left-section {
-    display: flex;
-    margin-left: 75px;
-    flex-direction: column;
-    gap:150px;
-    margin-top:200px;
+  .nav-items {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 30px;
+    align-content: center;
+    font-family: "Roboto";
+    color: #373a83;
+    font-size: 17px;
+    position: relative;
+    right: 24px;
   }
-}
-.intro-section {
-  display: flex;
-  
-}
-@media only screen and (max-width:924px){
+  .signin-btn {
+    font-family: "Roboto";
+    width: 73px;
+    height: 21px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+    border: 1px;
+    align-self: center;
+    color: white;
+    margin-right: 100px;
+  }
   .intro-section {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    justify-content: space-between;
+    margin-right: 70px;
+    flex-wrap: wrap;
   }
   .left-section {
     display: flex;
-    margin-left: 0px;
-    padding-right: 10px;
     flex-direction: column;
-    gap:150px;
-    margin-top:100px;
-    position: relative;
-    right: 40px;
+    flex-wrap: wrap;
+    gap:170px;
+    margin-top:150px;
   }
-}
-
-.left-section h1 {
-  font-family: "Roboto";
-  color: #3e4794;
-  font-size: 60px;
-  position: relative;
-  left: 64px;
-/* bottom: 20px; */
-}
-
-.left-section h4 {
-  font-family: "Roboto";
-  font-weight: lighter;
-  color: #a6a8bb;
-  position: relative;
-  bottom: 137px;
-  padding-left: 11px;
-  left: 59px;
-}
-.learn-more-btn {
-  width: 191px;
-  height: 43px;
-  font-size: 22px;
-  color: white;
-  border-radius: 22px;
-  border: 1px;
-  background-image: linear-gradient(to right, #965cf2, #ff8adc);
-  position: relative;
-  bottom: 241px;
-  left: 67px;
-}
-.imgs-div {
-  display: flex;
-}
-.intro-img {
-  padding-right: 80px;
-}
-@media only screen and(min-width:974) and (max-width:1316px) {
-  .intro-img{
-    padding-right: 20px;
-    width: 700px;
-  }
-}
-@media only screen and (max-width:974px) {
-  .intro-img{
-    padding-right: 20px;
-    width: 300px;
+  .left-section h1 {
+    font-family: "Roboto";
+    color: #3e4794;
+    font-size: 60px;
     position: relative;
-    bottom: 200px;
-    right:70px;
+    left: 64px;
   }
   
+  .left-section h4 {
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #a6a8bb;
+    position: relative;
+    bottom: 137px;
+    padding-left: 11px;
+    left: 59px;
+  }
+  .learn-more-btn {
+    width: 191px;
+    height: 43px;
+    font-size: 22px;
+    color: white;
+    border-radius: 22px;
+    border: 1px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+    position: relative;
+    bottom: 241px;
+    left: 67px;
+  }
+  .main-div {
+    background: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;
+  }
+  .vector-img {
+    position: relative;
+    bottom: 250px;
+  }
+  .vector-dot {
+    position: relative;
+    bottom: 250px;
+  }
 }
-.vector-img {
-  position: relative;
-  position: relative;
-  top: 173px;
-  left: 129px;
+@media only screen and (max-width:1376px) and (min-width:890px){
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    flex-wrap: wrap;
+    margin-left:50px;
+    margin-right:50px;
+    /* margin-top:10px; */
+  }
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: center;
+    font-family: "Roboto";
+    color: #373a83;
+    font-size: 17px;
+    position: relative;
+    right: 24px;
+  }
+  .signin-btn {
+    font-family: "Roboto";
+    width: 73px;
+    height: 21px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+    border: 1px;
+    align-self: center;
+    color: white;
+    margin-right: 100px;
+  }
+  .intro-section {
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top:50px;
+  }
+  .left-section h1 {
+    font-family: "Roboto";
+    color: #3e4794;
+    font-size: 60px;
+  }
+  
+  .left-section h4 {
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #a6a8bb;
+    position: relative;
+  }
+  .learn-more-btn {
+    width: 191px;
+    height: 43px;
+    font-size: 22px;
+    color: white;
+    border-radius: 22px;
+    border: 1px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+  }
+  .main-div {
+    background: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;}
+  
+  .vector-img {
+    position: relative;
+    bottom: 250px;
+  }
+  .vector-dot {
+    position: relative;
+    bottom: 250px;
+  }
+  .intro-img{
+    width: 80%;
+    height: auto;
 }
-.vector-dot {
-  position: relative;
-  position: relative;
-  top: 173px;
-  left: 129px;
+}
+@media only screen and (max-width:890px){
+  nav {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 12px;
+    flex-wrap: wrap;
+    margin-left:50px;
+    margin-right:50px;
+    /* margin-top:10px; */
+    align-items: center;
+    gap:20px;
+  }
+  .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-content: center;
+    font-family: "Roboto";
+    color: #373a83;
+    font-size: 17px;
+    position: relative;
+    right: 24px;
+  }
+  .signin-btn {
+    font-family: "Roboto";
+    width: 73px;
+    height: 21px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+    border: 1px;
+    align-self: center;
+    color: white;
+    margin-right: 100px;
+  }
+  .intro-section {
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top:50px;
+  }
+  .left-section h1 {
+    font-family: "Roboto";
+    color: #3e4794;
+    font-size: 60px;
+  }
+  
+  .left-section h4 {
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #a6a8bb;
+    position: relative;
+  }
+  .learn-more-btn {
+    width: 191px;
+    height: 43px;
+    font-size: 22px;
+    color: white;
+    border-radius: 22px;
+    border: 1px;
+    background-image: linear-gradient(to right, #965cf2, #ff8adc);
+  }
+  .main-div {
+    background: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: right;}
+  
+  .vector-img {
+    display: none;
+  }
+  .vector-dot {
+    display: none;
+  }
+  .intro-img{
+    width: 80%;
+    height: auto;
+}
 }
